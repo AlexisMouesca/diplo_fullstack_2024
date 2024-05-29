@@ -5,39 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer sitio web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <header>
-        <!-- Encabezado;
-        -Logo
-        -Titulo
-        -->
+    <header id="arriba" class="encabezado"><!-- Encabezado;-Logo-Titulo-->
+        <nav>
+            <ul class="menuSuperior">
+                <li> <a href="proyecto1.html"> Home </a></li>
+                <li> <a href="./pages/personajes.html"> Personajes </a></li>
+                <li> <a href="./pages/contacto.html"> Contacto </a></li>
+                <li> <a href="#"> Nosotros </a></li>
+            </ul>
+            <div class="link-abajo"> <a href="#pie"> Ir abajo </a></div>
+        </nav>
     </header>
-    <h1> Mi primer sitio web :) </h1>
-    <h2> Probando como sale esto </h2>
-    <h2> Presentacion </h2>
-    <h3> Alexis Mouesca </h3>
-    <h3> Biografia </h3>
+        <section>
+            <h1 class="rojo"> Mi primer sitio web :) </h1>
+            <h2> Probando como sale esto </h2>
+            <h2> Presentacion </h2>
+            <h3> Alexis Mouesca </h3>
+            <h3> Biografia </h3>
     <p> Soy profesor de musculacion, practico Kick Boxing y Rugby, me gusta ver peliculas y el heavy metal</p>
     <hr><!--Division con linea-->
-    <h2> Archivos multimedia </h2>
+    <h2 class="rojo"> Archivos multimedia </h2>
     <img src="./Imagenes/IMG_1310.jpg " alt="Foto-en-Cordoba">
+    </section>
     <hr>
-    <h2> Videos </h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ndenXpxSA9A?si=5tPqSiTE6_7G4dXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <section>
+    <h2 class="rojo"> Videos </h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Qy2dGfo4oS0?si=3H2MoCtnrmNmnCcn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Z3J_MCbwaJ0?si=cfNT2SQTsaBT122N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
     <hr>
-    <h2>Lista</h2>
-    <ul><!--Lista viñetas-->
-        <li>Alexis</li>
-        <li>Pablo</li>
-        <li>Fernanda</li>
-        <li>Priscila</li>
-        <li>Leandro</li>
-    </ul>
-    <h2>Como preparar un mate</h2> 
+    <section>
+    <h2 class="rojo">Lista</h2>
+        <ul><!--Lista viñetas--> 
+            <li>Alexis</li>
+            <li>Pablo</li>
+            <li>Fernanda</li>
+            <li>Priscila</li>
+            <li>Leandro</li>
+        </ul>
+    </section>
+    <section>
+    <h2 class="rojo">Como preparar un mate</h2> 
     <p> Para que podamos preparar unos ricos Mateolis deberemos seguir los siguientes pasos</p>
-    <ol><!--Lista enumerada-->
+    <ol class="box_model"><!--Lista enumerada-->
         <li> Poner a calentar la pava hasta los 80ºC. </li>
         <li> Llenar el mate con la yerba de preferencia.</li>
         <li> Colocar la bombilla tapando el pico para que no se tape.</li>
@@ -45,6 +61,15 @@
         <li> Servir el agua en el mate.</li>
         <li> Disfrutar</li> 
     </ol>
-    <footer>Copyright (C) 2024 Mouesca Corporation. Reservados todos los derechos.</footer>
+    </section>
+        <div>
+            <p class="box_model2 violeta roboto-black-italic"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quaerat commodi excepturi doloremque? Facilis vero distinctio nam eligendi cupiditate, sit non ea cumque autem libero, placeat amet id quasi. Natus.</p>
+        </div>
+    </section>
+    <footer id="pie" class="footer">
+        <div> Copyright (C) 2024 Mouesca Corporation. Reservados todos los derechos. </div>
+        <div class="link-arriba"> <a href="#arriba"> Ir arriba </a>
+        </div>
+    </footer>
 </body>
 </html>

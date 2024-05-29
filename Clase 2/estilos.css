@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-size: 15px;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: gray;
+}
+.encabezado{
+    background-image: url("./Imagenes/f2b9e0c6-8036-43cc-bba2-bcb38d51f39b_1785901_TABLET_LANDSCAPE_LARGE_16_9.jpg");
+    background-color: black;
+    background-size: cover;
+    /*background-position: ;*/
+    padding: 2rem;
+    height: 40vh;
+}
+body{
+    color: blue;   
+}
+.menuSuperior{
+    list-style: none;
+    text-align: center;
+}
+.menuSuperior li{
+    display: inline-block;
+}
+.menuSuperior a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 5rem;
+    font-size: 1.4rem;
+}
+.link-abajo a{
+    color: aliceblue;
+    float: right;
+}
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.rojo{
+    color: red;
+}
+p{
+    color: black;
+}
+.violeta{
+    color:blueviolet;
+}
+
+.box_model, .box_model2{
+    background-color: rgb(212, 188, 188);
+    width: 250px;
+    height: auto;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+
+    padding: 10px 40px 30px 20px; /*defino los 4 lados en una linea, sentido las agujas del reloj*/
+
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+
+    margin: 10px 40px; /* arriba y abajo*/
+}
+
+/*.box_model2{
+    background-color: rgb(212, 188, 188);
+    width: 250px;
+    height: auto;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+
+    padding: 10px 40px 30px 20px; /*defino los 4 lados en una linea, sentido las agujas del reloj
+
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+
+    margin: 10px 40px; /* arriba y abajo
+}*/
+
+.footer{
+    background-color: red;
+    padding: 1rem;
+}
+#pie{
+    color: azure;
+}
+
+.link-arriba a{
+    color: aliceblue;
+    float: right;
+    margin: 5px;
+}
